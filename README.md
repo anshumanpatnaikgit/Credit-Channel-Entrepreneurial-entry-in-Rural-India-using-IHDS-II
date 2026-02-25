@@ -362,3 +362,30 @@ This study does **not**:
 Instead, it evaluates institutional differentiation within existing rural financial structures, recognizing heterogeneity in enforcement, access, and economic function.
 
 
+
+### Main Workflow
+
+The primary `.do` file is organized sequentially:
+
+1. Install dependencies  
+2. Rename variables  
+3. Generate credit categories  
+4. Construct wealth index  
+5. Create control vectors  
+6. Construct instruments  
+7. Estimate models  
+8. Generate diagnostics  
+9. Export figures  
+
+The structure is modular — sections can be run independently once prior variables exist.
+
+---
+
+## Starting From Raw IHDS Data (Optional)
+
+If you wish to begin from the original, untrimmed IHDS-II raw data files:
+
+1. Utilise the Merging codes.do file in the code folder to combine village and household level data
+
+
+
